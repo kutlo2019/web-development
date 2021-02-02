@@ -209,7 +209,7 @@ div.active-nav-link > a > span {
 
 /* Services */
 
-.service_header > h1 {
+.header > h1 {
 	height: 70px;
 	border: 1px solid rgb(250,150,150);
 	border-radius: 5px;
@@ -364,6 +364,44 @@ div.active-nav-link > a > span {
 .service-content > p {
 	text-align: left;
 	margin-left: 5px;
+}
+
+/* Universities */
+
+.feature-3 {
+	display: inline;
+	border: 1px solid rgb(150,150,150);
+	border-radius: 5px;
+	height: 200px;
+}
+
+.feature_content3 {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "overlap";
+}
+
+.content_img_bg3 {
+	height: 100%;
+	grid-area: overlap;
+	opacity: 0.4;
+}
+
+.content3 {
+	height: 100%;
+	grid-area: overlap;
+	font-weight: 800;
+	margin-top: 65px;
+}
+
+.feature_3-img-bg {
+	background-image: url("../images/books.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 /* Footer */
