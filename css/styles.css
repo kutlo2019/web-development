@@ -18,8 +18,11 @@ body {
 	font-weight: 600;
 }
 
-div.feature-1, .feature-1 .row {
-	height: 280px;
+/* Navigstion Bar */
+
+nav.navbar {
+	margin-left: 0;
+	font-size: 1.2em;
 }
 
 button.navbar-toggler {
@@ -40,10 +43,35 @@ ul.navbar-nav {
 	margin-top: 20px;
 }
 
+/* Featured article */
+
+nav.navbar {
+	position: fixed;
+	height: 100%;
+}
+
+div.feature-1 {
+	height: 25%;
+}
+
+div.feature-1 div.row {
+	height: 100%;
+	margin-bottom: 1%;
+}
+
+div.feature-1 div.row div.col-5 {
+	height: 100%;
+}
+
+img.card-img-top {
+	height: 100%;
+}
+
 /* Portfolio styles */
 
 .portfolio-items-wrapper {
 	margin-top: 30px;
+	height: 50%;
 }
 
 .portfolio-items-wrapper img.card-img-top, .portfolio-items-wrapper div.card-img-overlay {
@@ -52,16 +80,12 @@ ul.navbar-nav {
 } 
 
 .mission, .vission, .value {
-	height: 250px;
+	height: 40%;
 	margin-top: 20px;
 }
 
-.portfolio-img-bg, .text-wrapper {
-	height: 250px;
-}
-
 .portfolio-item-wrapper .text-wrapper {
-	width: 380px;
+	width: 70%;
 	font-size: 0.9em;
 	transition: 1s;
 	font-weight: 600;
