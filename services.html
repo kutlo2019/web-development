@@ -3,166 +3,175 @@
 <head>
 	<title>Services</title>
 	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css2/orionicons.css">
+	<link rel="stylesheet" href="css2/custom.css">
+	<link rel="stylesheet" href="css2/style.default.css" id="theme-stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<div class="container_12 clearfix">
-		<div id="nav" class="grid_2 alpha">
-			<div class="top-side">
-				<div class="nav-link-wrapper">
-					<a href="index.html"><span>Home</span></a>
-				</div>
+	<div class="d-flex align-items-stretch">
+		<div id="sidebar" class="sidebar py-3">
+			<div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
 
-				<div class="nav-link-wrapper active-nav-link">
-					<a href="services.html"><span>Services</span></a>
-				</div>
+			<ul class="sidebar-menu list-unstyled">
+              <li class="sidebar-list-item"><a href="index.html" class="sidebar-link text-muted"><i class="o-home-1 mr-3 text-gray"></i><span>Home</span></a></li>
+              <li class="sidebar-list-item"><a href="services.html" class="sidebar-link text-muted active"><i class="o-sales-up-1 mr-3 text-gray"></i><span>Services</span></a></li>
+              <li class="sidebar-list-item"><a href="affiliates.html" class="sidebar-link text-muted"><i class="o-table-content-1 mr-3 text-gray"></i><span>Universities</span></a></li>
+              <li class="sidebar-list-item"><a href="reviews.html" class="sidebar-link text-muted"><i class="o-survey-1 mr-3 text-gray"></i><span>Student Reviews</span></a></li>
+              <li class="sidebar-list-item"><a href="contact_us.html" class="sidebar-link text-muted"><i class="o-survey-1 mr-3 text-gray"></i><span>Contact Us</span></a></li>
+             </ul>
 
-				<div class="nav-link-wrapper">
-					<a href="affiliates.html"><span>Universities</span></a>
-				</div>
-
-				<div class="nav-link-wrapper">
-					<a href="testimonies.html"><span>Testimonials</span></a>
-				</div>
-
-				<div class="nav-link-wrapper">
-					<a href="contact.html"><span>Contact Us</span></a>
-				</div>
+			<div class="navbar-brand">
+				<div>STBK Business Services</div>
 			</div>
-
-			<div class="bottom-side">
-				<div class="brand">
-					<div>STBK Business Services</div>
-				</div>
-			</div>
-		</div> <!-- nav -->
-		<div class="content-wrapper grid_10 omega">
-			<div class="header grid_4 prefix_3">
+		</div> <!-- sidebar -->
+		<div class="container">
+			<div class="col-sm-4 mx-auto">
 				<h1>Services</h1>
 			</div>
 
-			<div class="feature_2 grid_10">
-				<div class="feature_2-img-bg grid_4 omega"></div>
-				<div class="feature_content2 grid_6 alpha">
-					<img class="content_img_bg2 grid_6" src="images/bg.jpg">
-					<p class="content2">
-						We assist students with their student tier-4 visas.
-						This visa needs to be applied for 6 months before the 
-						start of the course. We also help students obtain express
-						visa, which can take up to 2 weeks.
-					</p>
+			<div class="card col-sm-10 mx-auto">
+
+				<div class="row mx-auto">
+					<div class="col-sm-4">
+						<img src="images/passport.jpg" class="rounded" style="height: 100%; width: 100%;">
+					</div>
+
+					<div class="col-sm-6 mx-auto">
+						<img class="card-img-top rounded" src="images/bg.jpg">
+						<div class="card-img-overlay">
+							<p>
+								We assist students with their student tier-4 visas.
+								This visa needs to be applied for 6 months before the 
+								start of the course. We also help students obtain express
+								visa, which can take up to 2 weeks.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="carousel service-list grid_10 suffix_0">
+			<div class="row">
+				<div class="col-sm-8 mx-auto mt-5">
+					<h3>We Offer The Following Services</h3>
+				</div>
+			</div>
+			<div class="card col-sm-10 col-12 mx-auto services">
+				<div id="demo" class="carousel slide mx-auto" data-ride="carousel">
 
-				<div class="slider">
-					<section>
-						<div class="service grid_4">
-							<div class="service-heading grid_4">
-								<h3>Visa Applications</h3>
-							</div>
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+					</ol>
 
-							<div class="service-content grid_4">
-								<img src="images/travel.jpg">
-								<p>Students are assisted to get their tier
-									4 visa to start their study in the Uk. 
-									This includes assisting with payments to
-									be made for the VISA.</p>
-							</div>
-						</div>
-						<div class="service grid_4">
+					<div class="carousel-inner mx-auto mb-5">>
+						<div class="carousel-item active mx-auto">
+							<div class="row my-auto">
+								<div class="card col-sm-4 m-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>Visa Applications</h3>
+									</div>
 
-							<div class="service-heading grid_4">
-								<h3>UCAS Applications</h3>
-							</div>
+									<div class="mt-3 mx-auto">
+										<img src="images/travel.jpg" class="rounded" style="height: 50%; width: 100%;">
+										<p>Students are assisted to get their tier
+											4 visa to start their study in the Uk. 
+											This includes assisting with payments to
+											be made for the VISA.</p>
+									</div>
+								</div>
 
-							<div class="service-content grid_4">
-								<img src="images/application.jpeg">
-								<p>The applications are done online through Universities and Colleges Admissions Services (UCAS) and STBK is an officially registered with UCAS as an application centre and students adviser.</p>
-							</div>
-						</div>
-					</section>
+								<div class="card col-sm-4 m-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>UCAS Applications</h3>
+									</div>
 
-					<section>
-						<div class="service  grid_4">
-							<div class="service-heading grid_4">
-								<h3>Guidance and Counselling</h3>
-							</div>
-
-							<div class="service-content grid_4">
-								<img src="images/guidance.jpg">
-								<p>When it's time for considering career
-									options, students can face difficult 
-									choices to make. Their strengths and 
-									weeknesses would be assessed so as they
-									can be assisted in making informed decisions.</p>
-							</div>
-						</div>
-
-						<div class="service  grid_4">
-							<div class="service-heading grid_4">
-								<h3>Expositions</h3>
-							</div>
-
-							<div class="service-content grid_4">
-								<img src="images/expositions.jpg">
-								<p>We invite UK universities to come, meet and introduce themselves and their services to the students eligible for sponsorship. We are the official representatives of several  UK universities.</p>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<div class="service grid_4">
-
-							<div class="service-heading grid_4">
-								<h3>Follow Ups</h3>
-							</div>
-
-							<div class="service-content grid_4">
-								<img src="images/girl.jpg">
-								<p>In instances where students encounter challenges with the universities set conditions we intervene on their behalf. ( eg  EFL requirements, deposit payments &  accommodation,  etc.).</p>
+									<div class="mt-3 mx-auto">
+										<img src="images/application.jpeg" class="rounded" style="height: 50%; width: 100%;">
+										<p>The applications are done online through Universities and Colleges Admissions Services (UCAS) and STBK is an officially registered with UCAS as an application centre and students adviser.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 
-						<div class="service  grid_4">
-							<div class="service-heading grid_4">
-								<h3>Pre Departure Briefing</h3>
-							</div>
+						<div class="carousel-item mx-auto">
+							<div class="row my-auto">
+								<div class="card col-sm-4 m-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>Career Guidance</h3>
+									</div>
 
-							<div class="service-content grid_4">
-								<img src="images/briefing.jpg">
-								<p>We organize pre-departure briefing sessions, at the sessions we invite guests from different organisations to motivate & address the students on issues concerning various aspects of life in the UK.</p>
+									<div class="mt-3 mx-auto">
+										<img src="images/guidance.jpg" class="rounded" style="height: 50%; width: 100%;">
+										<p>When it's time for considering career
+										options, students can face difficult 
+										choices to make. Their strengths and 
+										weeknesses would be assessed so as they
+										can be assisted in making informed decisions.</p>
+									</div>
+								</div>
+
+								<div class="card col-sm-4 m-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>Expositions</h3>
+									</div>
+
+									<div class="mt-3 mx-auto">
+										<img src="images/expositions.jpg" class="rounded" style="height: 50%; width: 100%;">
+										<p>We invite UK universities to come, meet and introduce themselves and their services to the students eligible for sponsorship. We are the official representatives of several  UK universities.</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</section>
 
-				</div> <!-- slider -->
-				<div class="controls">
-					<span class="arrow left">
-						<i class="material-icons">
-							keyboard_arrow_left
-						</i>
-					</span>
-					<span class="arrow right">
-						<i class="material-icons">
-							keyboard_arrow_right
-						</i>
-					</span>
-					<ul>
-						<li class="selected"></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div> <!-- controls -->
+						<div class="carousel-item mx-auto">
+							<div class="row">
+								<div class="card col-sm-4 m-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>Follow Ups</h3>
+									</div>
 
-			</div> <!-- service-list -->
-		</div> <!-- content-wrapper -->
-		<div id="footer" class="grid_10">
-			<p>&copy: Copyright STBK Business Services 2021</p>
-		</div> <!-- footer -->
-	</div>
+									<div class="mt-3 mx-auto">
+										<img src="images/girl.jpg" class="rounded" style="height: 50%; width: 100%;">
+										<p>In instances where students encounter challenges with the universities set conditions we intervene on their behalf. ( eg  EFL requirements, deposit payments &  accommodation,  etc.).</p>
+									</div>
+								</div>
 
+								<div class="card col-sm-4 mx-auto">
+									<div class="card mt-3 mx-auto">
+										<h3>Pre Departure Briefing</h3>
+									</div>
+
+									<div class="mt-3 mx-auto">
+										<img src="images/briefing.jpg" class="rounded" style="height: 45%; width: 100%;">
+										<p>We organize pre-departure briefing sessions, at the sessions we invite guests from different organisations to motivate & address the students on issues concerning various aspects of life in the UK.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- slider -->
+
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+
+				</div> <!-- service-list -->
+			</div>
+			<div id="footer" class="col-sm-10 mx-auto">
+				<p>&copy: Copyright STBK Business Services 2021</p>
+			</div> <!-- footer -->
+		</div> <!-- container -->
+	</div> <!-- d-flex -->
+	<script src="vendor/popper.js/umd/popper.min.js"> </script>
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
 </body>
-	<script type="text/javascript" src="controls.js"></script>
 </html>

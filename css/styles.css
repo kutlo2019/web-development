@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 
 /* Master Styles */
 
@@ -9,140 +10,46 @@ body {
 	margin: 0%;
 }
 
-#content-wrapper, #footer {
-	background-color: rgb(200, 200, 200);
-	text-align: left;
+.card .row .col-sm-6 img {
+	opacity: 0.3;
 }
 
-#nav {
-	background-color: #eee;
-	text-align: left;
-	border: 1px solid #000000;
-	border-radius: 5px;
-	height: 720px;
-	padding: 10px 5px 10px 15px;
-	position: fixed;
-	top: 0px;
-	left: 0px
+.card .row .col-sm-6 div {
+	font-weight: 600;
 }
 
-
-#nav > .bottom-side {
-	margin-top: 450px;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	text-align: left;
+div.feature-1, .feature-1 .row {
+	height: 280px;
 }
 
-#nav > .top-side > div {
-	display: column;
-	margin: 50px auto 10px auto;
-	font-size: 0.9em;
-	text-transform: uppercase;
-}
-
-#content-wrapper {
-	height: 100%;
+button.navbar-toggler {
 	position: absolute;
-	top: 0px;
-	left: 160px;
-	overflow: hidden;
+	top: 0;
+	right: 0;
 }
 
-#content-wrapper > div > h3 {
-	text-align: center;
-}
-
-#content-wrapper > div > div > p {
-	text-align: left;
-}
-
-.logo > h1 {
-	height: 70px;
-	border: 1px solid rgb(250,150,150);
-	border-radius: 5px;
-	background-image: radial-gradient(red, black)
-}
-
-.feature_1 {
-	display: inline;
-	border: 1px solid rgb(150,150,150);
-	border-radius: 5px;
-	height: 200px;
-}
-
-.feature_content {
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	grid-template-areas: "overlap";
-}
-
-.content_img_bg {
-	height: 100%;
-	grid-area: overlap;
-	opacity: 0.4;
-}
-
-.content {
-	height: 100%;
-	grid-area: overlap;
-	font-weight: 800;
-	margin-top: 65px;
-}
-
-.feature_1-img-bg {
-	background-image: url("../images/mission.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+div.collapse, ul.navbar-nav {
 	height: 100%;
 }
 
-.nav-link-wrapper {
-	height: 22px;
-	border-top: 15px;
-}
-div.nav-link-wrapper > a > span {
-	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.5s;
+ul.navbar-nav {
+	margin-top: 50px;
 }
 
-.nav-link-wrapper a {
-	color: #8a8a8a;
-	text-decoration: none;
-}
-.nav-link-wrapper a > span {
-	transition: color 0.5s;
-	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper:hover span {
-	border-bottom: 2px solid black;
-}
-
-.nav-link-wrapper a:hover span {
-	color: black;
-}
-
-div.active-nav-link > a > span {
-	border-bottom: 2px solid black;
-}
-
-.active-nav-link a {
-	color: black !important;
+.navbar-nav li.nav-item {
+	margin-top: 20px;
 }
 
 /* Portfolio styles */
 
 .portfolio-items-wrapper {
 	margin-top: 30px;
-	border: 1px solid rgb(150,150,150);
-	border-radius: 5px;
-	background-image: radial-gradient(white, black);
 }
+
+.portfolio-items-wrapper img.card-img-top, .portfolio-items-wrapper div.card-img-overlay {
+	height: 100%;
+	width: 100%;
+} 
 
 .mission, .vission, .value {
 	height: 250px;
@@ -161,11 +68,6 @@ div.active-nav-link > a > span {
 	color: transparent;
 	grid-area: overlap;
 	z-index: 2;
-}
-
-.portfolio-item-wrapper .text-wrapper div {
-	align-items: center;
-	margin: auto auto;
 }
 
 .portfolio-item-wrapper:hover .text-wrapper {
@@ -213,161 +115,21 @@ div.active-nav-link > a > span {
 
 /* Services */
 
-.header > h1 {
-	height: 70px;
-	border: 1px solid rgb(250,150,150);
-	border-radius: 5px;
-	background-image: radial-gradient(red, black)
-}
+ div.services {
+ 	background: #666;
+ 	height: 500px;
+ }
 
-.feature_2 {
-	display: inline;
-	border: 1px solid rgb(150,150,150);
-	border-radius: 5px;
-	height: 200px;
-}
-
-.feature_content2 {
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	grid-template-areas: "overlap";
-}
-
-.content_img_bg2 {
-	height: 200px;
-	grid-area: overlap;
-	opacity: 0.4;
-}
-
-.content2 {
-	height: 100%;
-	grid-area: overlap;
-	font-weight: 800;
-	margin-top: 65px;
-}
-
-.feature_2-img-bg {
-	background-image: url("../images/passport.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+.services div.carousel {
 	height: 100%;
 }
 
-.service-list {
-	margin-top: 80px;
-	position: relative;
-	border: 1px solid rgb(150,150,150);
-	border-radius: 5px;
-	display: inline;
-	background-image: radial-gradient(white, black);
-	height: 600px;
+.carousel-control-prev-icon {
+	margin-right: 50px;
 }
 
-.carousel {
-	position: relative;
-	overflow: hidden;
-}
-
-.slider {
-	height: 100%;
-	display: flex;
-	width: 280%;
-	transition: all 0.3s;
-}
-
-.slider section {
-	margin-left: 70px;
-}
-
-.left, .right {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	cursor: pointer;
-}
-
-.controls .arrow i {
-	font-size: 60px;
-} 
-
-.arrow.left {
-	left: 5px;
-}
-
-.arrow.right {
-	right: 5px;
-}
-
-.controls ul {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%);
-	list-style: none;
-	display: flex;
-	padding: 0;
-	margin: 0;
-}
-
-.controls ul li {
-	width: 10px;
-	height: 10px;
-	border: 2px solid #000;
-	border-radius: 50%;
-	margin: 10px;
-	background: #000;
-	cursor: pointer;
-}
-
-.controls ul li.selected {
-	background: transparent;
-}
-
-.service-list > .service {
-	display: column;
-	margin-left: 0px;
-}
-
-.service-list > a {
-	width: 45px;
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 17px;
-	border: 1px solid #cccccc;
-	border-radius: 3px;
-	margin-top: 250px;
-	margin-left: 5px;
-}
-
-.service-list > a:visited {
-	width: 45px;
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 17px;
-	border: 1px solid #cccccc;
-	border-radius: 3px;
-	margin-top: 250px;
-}
-.service-heading, .service-content {
-	margin-top: 10px;
-	border: 1px solid rgb(150,150,150);
-	border-radius: 5px;
-	display: inline;
-	background-color: #ffffff;	
-}
-
-.service-content > img {
-	margin-top: 20px;
-	height: 300px;
-	width: 250px;
-}
-
-.service-content > p {
-	text-align: left;
-	margin-left: 5px;
+.carousel-control-next-icon {
+	margin-left: 50px;
 }
 
 /* Universities */
@@ -426,11 +188,11 @@ div.active-nav-link > a > span {
 	font-size: 1.2em;
 }
 
-.affiliate-list .affiliate-pair {
+.affiliate-list .affiliate-tripple {
 	margin-top: 20px;
 }
 
-.affiliate-list .affiliate-pair .affiliate {
+.affiliate-list .affiliate-tripple .affiliate {
 	margin-left: 5px;
 	text-align: center;
 }
