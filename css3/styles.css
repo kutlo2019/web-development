@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+/* Master Styles */
+
+
+body {
+	font-family: "Lato", sans-serif;
+	text-align: center;
+	margin: 0%;
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+
+.d-flex {
+	display: flex;
+}
+
+div.container {
+	margin-right: 3%;
+}
+
+.card .row .col-sm-6 img {
+	opacity: 0.3;
+}
+
+.card .row .col-sm-6 div {
+	font-weight: 600;
+}
+
+/* Side Bar */
+
+a,
+a:hover,
+a:focus {
+	transition: all 0.3s;
+}
+
+.w3-sidebar {
+	min-width: 20%;
+	max-width: 20%;
+	transition: all 0.3s;
+}
+
+
+/* Featured article 1 */
+
+.feature-1 div {
+	height: 100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.feature-1 .row div {
+	height: 100%;
+}
+
+.feature-1 .row .col-md-4 img {
+	height: 100%;
+} 
+
+.card-img-overlay p {
+	display: inline-block;
+	font-size: 0.7em;
+	text-align: left;
+	line-height: 0.9
+	height: 100%;
+	width: 100%;
+}
+
+img.card-img-top {
+	height: 100%;
+}
+
+.feature-1 .row .col-md-6 img.card-img-top {
+	opacity: 0.2;
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+	margin-top: 5%;
+	height: 65%;
+}
+
+.portfolio-items-wrapper div {
+	height: 45%;
+}
+
+.portfolio-items-wrapper img.card-img-top, .portfolio-items-wrapper div.card-img-overlay {
+	height: 100%;
+	width: 100%;
+} 
+
+div.mission, 
+div.vission {
+	margin-top: 4%;
+	height: 100%;
+	display: inline-block;
+}
+
+div.value {
+	margin-top: 5%;
+}
+
+.portfolio-item-wrapper .text-wrapper {
+	font-size: 0.75em;
+	transition: 1s;
+	font-weight: 600;
+	color: transparent;
+	z-index: 2;
+}
+
+.portfolio-item-wrapper:hover .text-wrapper {
+	font-weight: 600;
+	color: lightseagreen;
+}
+
+.portfolio-item-wrapper img.rounded {
+	height: 100%;
+}
+
+/* Needs to be more specific with selector */
+.text-wrapper:hover {
+	font-weight: 600;
+	color: lightseagreen;
+}
+
+.img-darken {
+	transition: 1s;
+	filter: brightness(10%);
+}
+
+/* Services */
+
+ div.services {
+ 	background: #666;
+ 	height: 60%;
+ 	font-size: 0.8em;
+ }
+
+.services div.carousel {
+	height: 100%;
+}
+
+.carousel div.carousel-inner {
+	margin-top: 3%;
+	height: 90%;
+}
+
+.carousel-control-prev-icon {
+	margin-right: auto;
+}
+
+.carousel-control-next-icon {
+	margin-left: auto;
+}
+
+.carousel-item .row div {
+	margin: auto auto;
+	height: 80%;
+	padding: 3%;
+}
+
+.carousel-item .row {
+	margin-top: 3%;
+}
+
+div.services-heading {
+	height: 10%;
+}
+
+div.services-info {
+	height: 90%;
+	text-align: left;
+}
+
+.feature-2 {
+	margin-top: 6%;
+	padding-top: 6%;
+	padding-bottom: 2%
+}
+
+/* Universities */
+
+.feature-3 {
+	display: inline;
+	border: 1px solid rgb(150,150,150);
+	border-radius: 5px;
+	height: 200px;
+}
+
+.feature_content3 {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "overlap";
+}
+
+.content_img_bg3 {
+	height: 200px;
+	grid-area: overlap;
+	opacity: 0.3;
+}
+
+.content3 {
+	height: 100%;
+	grid-area: overlap;
+	font-weight: 800;
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.feature_3-img-bg {
+	background-image: url("../images/books.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.affiliates {
+	margin-top: 40px;
+	text-align: left;
+	line-height: 1.7;
+	font-size: 16px;
+}
+
+.affiliates h2 {
+	text-transform: uppercase;
+}
+
+.affiliates p {
+	font-family: open sans;
+	font-size: 1.2em;
+}
+
+.affiliate-list .affiliate-tripple {
+	margin-top: 20px;
+}
+
+.affiliate-list .affiliate-tripple .affiliate {
+	margin-left: 5px;
+	text-align: center;
+}
+
+.affiliate .affiliate-img img {
+	height: 250px;
+}
+
+.location span {
+	margin-top: 26px;
+}
+
+/* Footer */
+#footer {
+	margin-top: 30px;
+	border: 1px solid rgb(150,150,150);
+	border-radius: 5px;
+}

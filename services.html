@@ -3,7 +3,7 @@
 <head>
 	<title>Services</title>
 	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
-	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css2/orionicons.css">
 	<link rel="stylesheet" href="css2/custom.css">
 	<link rel="stylesheet" href="css2/style.default.css" id="theme-stylesheet">
@@ -11,22 +11,88 @@
 </head>
 <body>
 	<div class="d-flex align-items-stretch">
-		<div id="sidebar" class="sidebar py-3">
+		<nav id="sidebar" class="sidebar py-3">
 			<div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
 
-			<ul class="sidebar-menu list-unstyled">
-              <li class="sidebar-list-item"><a href="index.html" class="sidebar-link text-muted"><i class="o-home-1 mr-3 text-gray"></i><span>Home</span></a></li>
-              <li class="sidebar-list-item"><a href="services.html" class="sidebar-link text-muted active"><i class="o-sales-up-1 mr-3 text-gray"></i><span>Services</span></a></li>
-              <li class="sidebar-list-item"><a href="affiliates.html" class="sidebar-link text-muted"><i class="o-table-content-1 mr-3 text-gray"></i><span>Universities</span></a></li>
-              <li class="sidebar-list-item"><a href="reviews.html" class="sidebar-link text-muted"><i class="o-survey-1 mr-3 text-gray"></i><span>Student Reviews</span></a></li>
-              <li class="sidebar-list-item"><a href="contact_us.html" class="sidebar-link text-muted"><i class="o-survey-1 mr-3 text-gray"></i><span>Contact Us</span></a></li>
+			<ul class="sidebar-menu list-unstyled components">
+              <li class="sidebar-list-item">
+              	<a href="index.html" class="sidebar-link text-muted">
+              		<i class="o-home-1 mr-3 text-gray"></i>
+              		<span>Home</span>
+              	</a>
+              </li>
+              <li class="sidebar-list-item">
+              	<a href="homeSubmenu" data-toggle="collapse" aria-expanded="false" class="sidebar-link dropdown-toggle text-muted active">
+              		<i class="o-sales-up-1 mr-3 text-gray"></i>
+              		<span>Services</span>
+              	</a>
+
+              	<ul class="collapse list-unstyled" id="homeSubmenu">
+              		<li>
+              			<a href="#">Services 1</a>
+              		</li>
+
+              		<li>
+              			<a href="#">Services 2</a>
+              		</li>
+
+              		<li>
+              			<a href="#">Services 3</a>
+              		</li>
+
+              		<li>
+              			<a href="#">Services 4</a>
+              		</li>
+
+              		<li>
+              			<a href="#">Services 5</a>
+              		</li>
+
+              		<li>
+              			<a href="#">Services 6</a>
+              		</li>
+              	</ul>
+
+              </li>
+              <li class="sidebar-list-item">
+              	<a href="affiliates.html" class="sidebar-link text-muted">
+              		<i class="o-table-content-1 mr-3 text-gray"></i>
+              		<span>Universities</span>
+              	</a>
+              </li>
+              <li class="sidebar-list-item">
+              	<a href="reviews.html" class="sidebar-link text-muted">
+              		<i class="o-survey-1 mr-3 text-gray"></i>
+              		<span>Student Reviews</span>
+              	</a>
+              </li>
+              <li class="sidebar-list-item">
+              	<a href="contact_us.html" class="sidebar-link text-muted">
+              		<i class="o-survey-1 mr-3 text-gray"></i>
+              		<span>Contact Us</span>
+              	</a>
+              </li>
              </ul>
 
 			<div class="navbar-brand">
 				<div>STBK Business Services</div>
 			</div>
-		</div> <!-- sidebar -->
+		</nav> <!-- sidebar -->
+
 		<div class="container">
+
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+					<button type="button" id="sidebarCollapse" class="btn btn-info">
+						<i class="fas fa-align-left"></i>
+						<span>Toggle Sidebar</span>
+					</button>
+					
+				</div>
+			</nav>
+			
+			<br><br>
+
 			<div class="col-sm-4 mx-auto">
 				<h1>Services</h1>
 			</div>
@@ -169,9 +235,9 @@
 			</div> <!-- footer -->
 		</div> <!-- container -->
 	</div> <!-- d-flex -->
-	<script src="vendor/popper.js/umd/popper.min.js"> </script>
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
 </body>
 </html>
