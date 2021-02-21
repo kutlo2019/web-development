@@ -1,103 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Services</title>
-	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css2/orionicons.css">
-	<link rel="stylesheet" href="css2/custom.css">
-	<link rel="stylesheet" href="css2/style.default.css" id="theme-stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Services</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- carousel-slider theme -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
+    <!-- orion icons -->
+    <link rel="stylesheet" href="css2/orionicons.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/logo.svg">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <body>
-	<div class="d-flex align-items-stretch">
-		<nav id="sidebar" class="sidebar py-3">
-			<div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
+	<div class="sidebar border">
+      <div class="sidebar-inner d-flex flex-column">
+        <div class="px-4 py-5"><a href="index._trial.html"><img src="images/logo.svg" alt="" width="90"></a></div>
+        <div class="sidebar-menu-holder flex-grow-1">
+          <ul class="sidebar-menu list-unstyled">
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="index_trial.html">Home</a>
+            </li>
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small active" href="services_trial.html">Services</a>
+            </li>
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="affiliates.html">Partners</a>
+            </li>
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="reviews.html">Reviews</a>
+            </li>
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="detail.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-4 py-3">
+          <ul class="list-inline list-social mb-3">
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-dribbble"></i></a></li>
+            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- sidebar -->
 
-			<ul class="sidebar-menu list-unstyled components">
-              <li class="sidebar-list-item">
-              	<a href="index.html" class="sidebar-link text-muted">
-              		<i class="o-home-1 mr-3 text-gray"></i>
-              		<span>Home</span>
-              	</a>
-              </li>
-              <li class="sidebar-list-item">
-              	<a href="homeSubmenu" data-toggle="collapse" aria-expanded="false" class="sidebar-link dropdown-toggle text-muted active">
-              		<i class="o-sales-up-1 mr-3 text-gray"></i>
-              		<span>Services</span>
-              	</a>
+		
 
-              	<ul class="collapse list-unstyled" id="homeSubmenu">
-              		<li>
-              			<a href="#">Services 1</a>
-              		</li>
+	<div class="page-holder">
+		<div class="px-2 px-md-4 d-block d-lg-none">
+	        <!-- navbar-->
+	        <header class="header">
+	          <nav class="navbar navbar-expand-lg navbar-light px-0">
+	            <button class="navbar-toggler navbar-toggler-right text-sm text-uppercase" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	              <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
+	                <use xlink:href="#menu-hamburger-1"> </use>
+	              </svg>
+	            </button>
+	          </nav>
+	        </header>
+        </div>
 
-              		<li>
-              			<a href="#">Services 2</a>
-              		</li>
+        <div class="container-fluid px-2 px-md-4 mx-auto">
+	        <header class="px-2 px-md-4">
+	    	  <div class="d-flex">
+		          <div class="container-fluid">
+	            	<h1 class="font-weight-light py-5">Services</h1>
+	        	  </div>
+	        	  <div class="mx-auto my-auto mr-2">
+	        	  	<a class="navbar-brand" href="index.html">
+	        	  		<img src="images/logo.svg" alt="" width="100" height="100">
+	        	  	</a>
+	        	  </div>
+	    	  </div>
+		    </header>
 
-              		<li>
-              			<a href="#">Services 3</a>
-              		</li>
-
-              		<li>
-              			<a href="#">Services 4</a>
-              		</li>
-
-              		<li>
-              			<a href="#">Services 5</a>
-              		</li>
-
-              		<li>
-              			<a href="#">Services 6</a>
-              		</li>
-              	</ul>
-
-              </li>
-              <li class="sidebar-list-item">
-              	<a href="affiliates.html" class="sidebar-link text-muted">
-              		<i class="o-table-content-1 mr-3 text-gray"></i>
-              		<span>Universities</span>
-              	</a>
-              </li>
-              <li class="sidebar-list-item">
-              	<a href="reviews.html" class="sidebar-link text-muted">
-              		<i class="o-survey-1 mr-3 text-gray"></i>
-              		<span>Student Reviews</span>
-              	</a>
-              </li>
-              <li class="sidebar-list-item">
-              	<a href="contact_us.html" class="sidebar-link text-muted">
-              		<i class="o-survey-1 mr-3 text-gray"></i>
-              		<span>Contact Us</span>
-              	</a>
-              </li>
-             </ul>
-
-			<div class="navbar-brand">
-				<div>STBK Business Services</div>
-			</div>
-		</nav> <!-- sidebar -->
-
-		<div class="container">
-
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<div class="container-fluid">
-					<button type="button" id="sidebarCollapse" class="btn btn-info">
-						<i class="fas fa-align-left"></i>
-						<span>Toggle Sidebar</span>
-					</button>
-					
-				</div>
-			</nav>
-			
-			<br><br>
-
-			<div class="col-sm-4 mx-auto">
-				<h1>Services</h1>
-			</div>
-
-			<div class="card col-sm-10 mx-auto">
+			<div class="card col-sm-10 mx-auto feature-2">
 
 				<div class="row mx-auto">
 					<div class="col-sm-4">
@@ -123,121 +120,194 @@
 					<h3>We Offer The Following Services</h3>
 				</div>
 			</div>
-			<div class="card col-sm-10 col-12 mx-auto services">
-				<div id="demo" class="carousel slide mx-auto" data-ride="carousel">
+			<div class="items">
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/travelling.jpg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">VISA Applications</h5>
+			            <p class="card-text">
+			            	Students are assisted to get their tier
+							4 visa to start their study in the Uk. 
+							This includes assisting with payments to
+							be made for the VISA.
+						</p>
+			        </div>
+			    </div>
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/application.jpeg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">UCAS Applications</h5>
+			            <p class="card-text">
+			            	The applications are done online through Universities and Colleges Admissions Services (UCAS) and STBK is an officially registered with UCAS as an application centre and students adviser.
+			            </p>
+			        </div>
+			    </div>
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/guidance.jpg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">Career Guidance</h5>
+			            <p class="card-text">
+			            	When it's time for considering career
+							options, students can face difficult 
+							choices to make. Their strengths and 
+							weeknesses would be assessed so as they
+							can be assisted in making informed decisions.
+			            </p>
+			        </div>
+			    </div>
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/expositions.jpg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">Expositions</h5>
+			            <p class="card-text">
+			            	We invite UK universities to come, meet and introduce themselves and their services to the students eligible for sponsorship. We are the official representatives of several  UK universities.
+			            </p>
+			        </div>
+			    </div>
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/girl.jpg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">Follow Ups</h5>
+			            <p class="card-text">
+			            	In instances where students encounter challenges with the universities set conditions we intervene on their behalf. ( eg  EFL requirements, deposit payments &  accommodation,  etc.).
+			            </p>
+			        </div>
+			    </div>
+			    <div class="card">
+			        <div class="media media-2x1 gd-primary"> <img class="profile-image" src="images/briefing.jpg"> </div>
+			        <div class="card-body">
+			            <h5 class="card-title">Pre Departure Briefing</h5>
+			            <p class="card-text">
+			            	We organize pre-departure briefing sessions, at the sessions we invite guests from different organisations to motivate & address the students on issues concerning various aspects of life in the UK.
+			            </p>
+			        </div>
+			    </div>
+			</div><!-- items -->
+			<footer class="text-muted mt-5" style="background: #0d0d0d">
+		        <div class="container-fluid py-5">
+		          <div class="row">
+		            <div class="col-lg-10 mx-auto">
+		              <div class="row">
+		                <div class="col-lg-5 mb-4 mb-lg-0 mx-auto">
+		                  <h2 class="h4 text-white mb-4">About Us</h2>
+		                  <p class="text-small text-left">STBK Business Services (Pty) Ltd is a wholly citizen owned company. Incorporated under the Botswana companies act, Chapter 42:01 on the 10th of January 2005.</p>
+		                  <ul class="list-unstyled flex-column text-small mb-0 text-white text-left pl-5">
+		                    <li class="mb-1">
+		                    	<a class="reset-anchor" href="#">
+	                    			<i class="fas fa-globe-americas text-muted mr-2 fa-fw"></i>
+			                    		Tshipidi House <br>
+			                    		<div class="ml-4">
+				                    		Plot 684, Main Mall <br>
+				                    		Second Floor, Unit 9 <br>
+				                    		Gaborone, Botswana
+				                    	</div>
+		                    	</a>
+		                    </li>
+		                    <li class="mb-1">
+		                    	<a class="reset-anchor" href="#">
+		                    		<i class="fas fa-mobile text-muted mr-2 fa-fw"></i>(+267) 39 118 05
+		                    	</a>
+		                    </li>
+		                    <li class="mb-1">
+		                    	<a class="reset-anchor" href="#"> <i class="fas fa-mobile text-muted mr-2 fa-fw"></i>(+267) 71 677 333 / 72 985 766</a>
+		                    </li>
+		                    <li class="mb-1">
+		                    	<a class="reset-anchor" href="#"> <i class="fas fa-envelope text-muted mr-2 fa-fw"></i>naomisebape@gmail.com</a>
+		                    </li>
+		                  </ul>
+		                </div>
+		                <div class="col-lg-5 mb-4 mb-lg-0 mx-auto">               
+		                  <h2 class="h4 text-white mb-4">Follow Us</h2>
+		                  <ul class="list-inline">
+		                    <div class="row text-white text-small">
+		                      <div class="col-6">
+		                        <ul class="list-unstyled">
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-facebook-f mr-2 mb-2 fa-fw"></i>Facebook</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-twitter mr-2 mb-2 fa-fw"></i>Twitter</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-instagram mr-2 mb-2 fa-fw"></i>Instagram</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-dribbble mr-2 mb-2 fa-fw"></i>Dribbble</a></li>
+		                        </ul>
+		                      </div>
+		                      <div class="col-6">
+		                        <ul class="list-unstyled">
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-linkedin-in mr-2 mb-2 fa-fw"></i>Linkedin</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-pinterest mr-2 mb-2 fa-fw"></i>Pinterest</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-vimeo mr-2 mb-2 fa-fw"></i>Vimeo</a></li>
+		                          <li><a class="reset-anchor" href="#"><i class="fab fa-youtube mr-2 mb-2 fa-fw"></i>Youtube</a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </ul>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="bg-dark py-4">
+		          <div class="container-fluid">
+		            <div class="row">
+		              <div class="col-lg-10 mx-auto">
+		                <div class="row text-white">
+		                  <div class="col-md-6 text-center text-md-left">
+		                    <p class="text-small mb-3 mb-md-0"><span class="text-muted">&copy; All rights reserved - STBK Business Services.</span></p>
+		                  </div>
+		                  <div class="col-md-6 text-center text-md-right">
+		                    <p class="text-small mb-0">
+		                      <!-- You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to our partner and us.-->
+		                      <!-- If you would prefer removing the backlink from the theme footer, please purchase the attribution-free license at the theme page at https://bootstraptemple.com.                            --><span class="text-muted">Webiste designed by Kutlo Popo</span>
+		                    </p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+	        </div>
+	      </footer> <!-- footer -->
+	    </div> <!-- container-fluid -->
+	</div> <!-- page-holder -->
 
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#demo" data-slide-to="0" class="active"></li>
-						<li data-target="#demo" data-slide-to="1"></li>
-						<li data-target="#demo" data-slide-to="2"></li>
-					</ol>
-
-					<div class="carousel-inner mx-auto mb-5">>
-						<div class="carousel-item active mx-auto">
-							<div class="row my-auto">
-								<div class="card col-sm-4 m-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>Visa Applications</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/travel.jpg" class="rounded" style="height: 50%; width: 100%;">
-										<p>Students are assisted to get their tier
-											4 visa to start their study in the Uk. 
-											This includes assisting with payments to
-											be made for the VISA.</p>
-									</div>
-								</div>
-
-								<div class="card col-sm-4 m-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>UCAS Applications</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/application.jpeg" class="rounded" style="height: 50%; width: 100%;">
-										<p>The applications are done online through Universities and Colleges Admissions Services (UCAS) and STBK is an officially registered with UCAS as an application centre and students adviser.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="carousel-item mx-auto">
-							<div class="row my-auto">
-								<div class="card col-sm-4 m-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>Career Guidance</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/guidance.jpg" class="rounded" style="height: 50%; width: 100%;">
-										<p>When it's time for considering career
-										options, students can face difficult 
-										choices to make. Their strengths and 
-										weeknesses would be assessed so as they
-										can be assisted in making informed decisions.</p>
-									</div>
-								</div>
-
-								<div class="card col-sm-4 m-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>Expositions</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/expositions.jpg" class="rounded" style="height: 50%; width: 100%;">
-										<p>We invite UK universities to come, meet and introduce themselves and their services to the students eligible for sponsorship. We are the official representatives of several  UK universities.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="carousel-item mx-auto">
-							<div class="row">
-								<div class="card col-sm-4 m-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>Follow Ups</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/girl.jpg" class="rounded" style="height: 50%; width: 100%;">
-										<p>In instances where students encounter challenges with the universities set conditions we intervene on their behalf. ( eg  EFL requirements, deposit payments &  accommodation,  etc.).</p>
-									</div>
-								</div>
-
-								<div class="card col-sm-4 mx-auto">
-									<div class="card mt-3 mx-auto">
-										<h3>Pre Departure Briefing</h3>
-									</div>
-
-									<div class="mt-3 mx-auto">
-										<img src="images/briefing.jpg" class="rounded" style="height: 45%; width: 100%;">
-										<p>We organize pre-departure briefing sessions, at the sessions we invite guests from different organisations to motivate & address the students on issues concerning various aspects of life in the UK.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> <!-- slider -->
-
-					<!-- Left and right controls -->
-					<a class="carousel-control-prev" href="#demo" data-slide="prev">
-						<span class="carousel-control-prev-icon"></span>
-					</a>
-					<a class="carousel-control-next" href="#demo" data-slide="next">
-						<span class="carousel-control-next-icon"></span>
-					</a>
-
-				</div> <!-- service-list -->
-			</div>
-			<div id="footer" class="col-sm-10 mx-auto">
-				<p>&copy: Copyright STBK Business Services 2021</p>
-			</div> <!-- footer -->
-		</div> <!-- container -->
-	</div> <!-- d-flex -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Optional JavaScript -->
+  	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+	<!-- "vendor/popper.js/popper.min.js" giving bugs -->
+    <!-- <script src="vendor/popper.js/popper.min.js"></script> -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+	<script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- javascript code for carousel slider -->
+    <script type="text/javascript" src="js/carousel_service.js"></script>
+    <!-- slick,js for the carousel slider -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
+      
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </body>
 </html>
