@@ -36,7 +36,38 @@ header div.container-fluid h1{
 	font-weight: 600;
 }
 
-/* Side Bar */
+/* Introductory Carousel */
+
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -99px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background: #fff;
+    border-radius: 2px
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#career .carousel-caption {
+    color: #000;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 /* Featured article 1 */
 
@@ -261,3 +292,5 @@ div.services-info {
         margin-right: 30px
     }
 }
+
+/* footer */

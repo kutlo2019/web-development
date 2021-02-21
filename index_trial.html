@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <!-- Lightbox CSS-->
     <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
-    <!-- Google fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/styles.css">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-	<link rel="stylesheet" href="css2/orionicons.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="shortcut icon" href="images/logo.svg">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
+    <!-- font-awesome -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/logo.svg">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -88,6 +91,39 @@
               </div>
           </div>
       </header>
+
+      <div id="mySlider" class="container-fluid mt-3">
+        <div class="row">
+            <div class="mr-auto ml-auto">
+                <div class="card card-raised card-carousel">
+                    <div id="carouselindicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselindicators" data-slide-to="0" class=""></li>
+                            <li data-target="#carouselindicators" data-slide-to="1" class="active"></li>
+                            <li data-target="#carouselindicators" data-slide-to="2" class=""></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div id="career" class="carousel-item active carousel-item-left"> <img class="d-block w-100" src="images/path.jpg" alt="First slide">
+                                <div class="carousel-caption d-md-block">
+                                    <p>Choosing a career path.</p>
+                                </div>
+                            </div>
+                            <div id="visa" class="carousel-item carousel-item-next carousel-item-left"> <img class="d-block w-100" src="images/travel.jpg" alt="Second slide">
+                                <div class="carousel-caption d-md-block">
+                                    <p>Physical and Online Visa Applications (including tier-4 visa).</p>
+                                </div>
+                            </div>
+                            <div id="ucas" class="carousel-item"> <img class="d-block w-100" src="images/ucas_2021.png" alt="Third slide">
+                                <div class="carousel-caption d-md-block">
+                                    <p>UCAS Applications and guidance on personal statements.</p>
+                                </div>
+                            </div>
+                        </div> <a class="carousel-control-prev" href="#carouselindicators" role="button" data-slide="prev" data-abc="true"> <i class="fa fa-chevron-left"></i> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselindicators" role="button" data-slide="next" data-abc="true"> <i class="fa fa-chevron-right"></i> <span class="sr-only">Next</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
 
   		<div class="col-md-8 mx-auto mt-3 border">
   			<h3 class="col-md-8 mx-auto">Experts in Student Placement Abroad</h3>
