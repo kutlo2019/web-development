@@ -117,8 +117,8 @@ img.card-img-top {
 /* Portfolio styles */
 
 div.portfolio-items {
-    margin-top: 6%;
-    height: 350px;
+    margin-top: 2%;
+    height: 650px;
 }
 
 .fa {
@@ -199,6 +199,14 @@ header {
     background-color: #f2f2f2
 }
 
+.portfolio-item {
+    margin-top: 40px !important;
+}
+
+.portfolio-item div.card {
+    width: 260px;
+}
+
 /* Services */
 
 @media (max-width:991.98px) {
@@ -219,13 +227,12 @@ header {
 
 .my-container {
     background-color: #536DFE !important;
-    padding: 2% 2% 2% 2%;
 }
 
 .items .card {
     position: relative;
     display: flex;
-    width: 600px;
+    width: 700px;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
@@ -250,7 +257,7 @@ header {
 p {
     font-size: 0.875rem;
     margin-bottom: .5rem;
-    line-height: 1.5rem
+    line-height: 1.3rem
 }
 
 h4 {
@@ -314,8 +321,8 @@ h4 {
 }
 
 .card-title {
-    font-size: 19px;
-    font-weight: 200
+    font-size: 1em;
+    font-weight: 400
 }
 
 .feature-2 {
@@ -327,7 +334,7 @@ h4 {
 /* Universities / Partners */
 
 .affiliates-intro {
-    font-size: 1.8em !important;
+    font-size: 1.4rem !important;
     font-family: "Lato";
 }
 
