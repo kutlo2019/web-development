@@ -119,6 +119,7 @@ img.card-img-top {
 div.portfolio-items {
     margin-top: 2%;
     height: 650px;
+    justify-content: center;
 }
 
 .fa {
@@ -127,23 +128,23 @@ div.portfolio-items {
     width: 38px;
     border-radius: 50%;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .fa:hover {
-    opacity: 0.7
+    opacity: 0.7;
 }
 
 h1 {
     font-family: 'Yrsa', serif;
-    font-size: 50px
+    font-size: 50px;
 }
 
 .flip-card {
     background-color: transparent;
     width: 260px;
     height: 120px;
-    perspective: 1000px
+    perspective: 1000px;
 }
 
 .flip-card-inner {
@@ -151,11 +152,11 @@ h1 {
     height: 300px;
     text-align: center;
     transition: transform 0.8s;
-    transform-style: preserve-3d
+    transform-style: preserve-3d;
 }
 
 .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -163,40 +164,47 @@ h1 {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden
+    backface-visibility: hidden;
 }
 
 .flip-card-front {
     background-color: #bbb;
-    color: black
+    color: black;
 }
 
 .flip-card-back {
     transform: rotateY(180deg);
     width: 260px;
     height: 300px;
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
 }
 
 .card-title {
     color: #007b5e;
-    padding: 20px
+    padding: 20px;
 }
 
 header {
-    background-color: #007b5e
+    background-color: #007b5e;
 }
 
 .person {
     color: #007b5e;
     font-family: 'Yrsa', serif;
-    font-size: 30px;
-    padding: 15px
-}
+    font-size: 1.5em;
+    padding: 15px;
 }
 
+.person-2 {
+    color: #007b5e;
+    font-family: 'Yrsa', serif;
+    font-size: 1.8em;
+    padding: 15px;
+}
+
+
 .card-body {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
 }
 
 .portfolio-item {
@@ -207,26 +215,33 @@ header {
     width: 260px;
 }
 
+/* Personal Statement Feature */
+
+.ucas-text {
+    line-height: 1.8;
+}
+
 /* Services */
 
 @media (max-width:991.98px) {
 .padding {
-    padding: 1.5rem
+    padding: 1.5rem;
 }
 }
 
 @media (max-width:767.98px) {
 .padding {
-     padding: 1rem
+     padding: 1rem;
 }
 }
 
 .padding {
-    padding: 5rem
+    padding: 5rem;
 }
 
 .my-container {
     background-color: #536DFE !important;
+    margin-top: -8%;
 }
 
 .items .card {
@@ -242,26 +257,20 @@ header {
     border-radius: 11px;
     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
 }
 
 .card .card-body {
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
 }
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1.25rem
-}
-
-p {
-    font-size: 0.875rem;
-    margin-bottom: .5rem;
-    line-height: 1.3rem
+    padding: 1.25rem;
 }
 
 h4 {
-    line-height: .2 !important
+    line-height: .2 !important;
 }
 
 .items {
@@ -271,7 +280,7 @@ h4 {
 }
 
 .slick-slide {
-    margin: 10px
+    margin: 10px;
 }
 
 .media iframe,
@@ -327,8 +336,8 @@ h4 {
 
 .feature-2 {
 	margin-top: 6%;
-	padding-top: 6%;
-	padding-bottom: 2%
+	padding-top: 1%;
+	padding-bottom: 1%
 }
 
 /* Universities / Partners */
@@ -376,56 +385,56 @@ h4 {
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px
 }
 
 .open-quotes {
-    margin-left: 130px;
-    margin-top: 100px
+    margin-left: 8.125rem;
+    margin-top: 6.25rem;
 }
 
 .content {
-    margin-left: 150px;
-    margin-right: 80px
+    margin-left: 9.375rem;
+    margin-right: 5rem;
 }
 
 .close-quotes {
-    margin-bottom: 100px;
-    margin-right: 60px
+    margin-bottom: 6.25rem;
+    margin-right: 3.75rem;
 }
 
 @media screen and (max-width: 600px) {
     .card-main {
-        padding: 50px 10px
+        padding: 3.125rem 0.625rem;
     }
 
     .card-0 {
-        min-height: 432px
+        min-height: 20rem;
     }
 
     .profile {
-        top: 24%
+        top: 24%;
     }
 
     .profile-pic {
-        width: 90px;
-        height: 90px
+        width: 5.4rem;
+        height: 5.4rem;
     }
 
     .open-quotes {
-        margin-left: 100px
+        margin-left: 6.25rem;
     }
 
     .content {
-        margin-left: 120px;
-        margin-right: 50px
+        margin-left: 7.5rem;
+        margin-right: 3.125rem;
     }
 
     .close-quotes {
-        margin-right: 30px
+        margin-right: 1.85rem;
     }
 }
 
