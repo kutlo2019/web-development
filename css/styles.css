@@ -58,10 +58,7 @@ header div.container-fluid h1{
 .carousel-inner .carousel-item .carousel-caption {
     font-size: 1.5em;
     color: #fff;
-}
-
-#career .carousel-caption {
-    color: #000;
+    background-color: rgba(0,0,0,0.5);
 }
 
 #career,
@@ -241,7 +238,7 @@ header {
 
 .my-container {
     background-color: #536DFE !important;
-    margin-top: -8%;
+    margin-top: -4%;
 }
 
 .items .card {
