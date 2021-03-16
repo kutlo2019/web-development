@@ -205,7 +205,7 @@ header {
 }
 
 .portfolio-item {
-    margin-top: 40px !important;
+    margin-top: 4.1rem !important;
 }
 
 .portfolio-item div.card {
@@ -392,7 +392,6 @@ h4 {
     position: relative;
     margin-left: 18%;
     border-radius: 3%;
-    min-height: 100%;
 }
 
 .carousel-indicators li {
@@ -468,3 +467,7 @@ h4 {
 }
 
 /* footer */
+
+.my-footer {
+    margin-top: 14rem;
+}
