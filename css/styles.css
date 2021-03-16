@@ -257,6 +257,16 @@ header {
     box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
 }
 
+.items .card a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
 .card .card-body {
     padding: 1rem 1rem;
 }
@@ -335,6 +345,27 @@ h4 {
 	margin-top: 6%;
 	padding-top: 1%;
 	padding-bottom: 1%
+}
+
+.careers-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/calipers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-intro p {
+    position: absolute;
+    justify-content: center;
+    width: 70%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    left: 0;
 }
 
 /* Universities / Partners */
