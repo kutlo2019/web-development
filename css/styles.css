@@ -69,7 +69,8 @@ header div.container-fluid h1{
 }
 
 .carousel-item img.d-block {
-    width: 100%;
+    /*width: 100%;*/
+    object-fit: cover;
     height: 100%;
     display: block;
 }
@@ -347,18 +348,86 @@ h4 {
 	padding-bottom: 1%
 }
 
+/*Extended services*/
+
 .careers-intro {
     position: relative;
     height: 20em;
-    background-image: url("../images/calipers.jpg");
+    background-image: url("../images/services/calipers.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 
-.careers-intro p {
+.followup-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/services/follow_ups.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.departure-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/services/departure_services.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.ucas-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/services/ucas_service.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.visa-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/services/visa_services.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.exposition-intro {
+    position: relative;
+    height: 20em;
+    background-image: url("../images/services/exposition_services.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.careers-intro p,
+.followup-intro p,
+.departure-intro p,
+.ucas-intro p,
+.visa-intro p,
+.exposition-intro p {
     position: absolute;
     justify-content: center;
     width: 70%;
@@ -366,6 +435,31 @@ h4 {
     background-color: rgba(0,0,0,0.5);
     bottom: 0;
     left: 0;
+}
+
+.departure-process,
+.visa-process,
+.ucas-process,
+.choosing-a-course {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+
+.choosing-a-course .row .col-lg-5 a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.choosing-a-course .row .col-lg-5 img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Universities / Partners */
