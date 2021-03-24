@@ -116,7 +116,7 @@ img.card-img-top {
 
 div.portfolio-items {
     margin-top: 2%;
-    height: 650px;
+    height: 60rem;
     justify-content: center;
 }
 
@@ -211,6 +211,20 @@ header {
 
 .portfolio-item div.card {
     width: 260px;
+}
+
+
+/* exeter-ad */
+.exeter-ad {
+    background-image: url(../images/austin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    margin-top: 12rem;
+    object-fit: cover;
 }
 
 /* Personal Statement Feature */
