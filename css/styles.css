@@ -451,6 +451,7 @@ h4 {
     left: 0;
 }
 
+.followup-body,
 .departure-process,
 .visa-process,
 .ucas-process,
@@ -498,8 +499,11 @@ h4 {
     color: #000;
     background-color: #536DFE !important;
     position: relative;
-    margin-left: 18%;
+    margin-left: 1rem;
     border-radius: 3%;
+    height: 40rem !important;
+    width: 17rem;
+    font-size: 0.8rem;
 }
 
 .carousel-indicators li {
@@ -513,11 +517,12 @@ h4 {
     color: #000;
     background-color: #FFD54F;
     position: absolute;
-    left: -70px;
+    left: -2rem;
     top: 17%;
     border-radius: 8px;
     border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px
+    border-bottom-right-radius: 0px;
+    width: 8rem;
 }
 
 .profile-pic {
@@ -529,10 +534,11 @@ h4 {
 
 .open-quotes {
     margin-left: 8.125rem;
-    margin-top: 6.25rem;
+    margin-top: 4rem;
 }
 
 .content {
+    margin-top: 0rem;
     margin-left: 9.375rem;
     margin-right: 5rem;
 }
