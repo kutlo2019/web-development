@@ -501,8 +501,7 @@ h4 {
     position: relative;
     margin-left: 1rem;
     border-radius: 3%;
-    height: 40rem !important;
-    width: 17rem;
+    height: 25rem !important;
     font-size: 0.8rem;
 }
 
@@ -577,6 +576,13 @@ h4 {
 
     .close-quotes {
         margin-right: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .card-0 {
+        height: 36rem !important;
     }
 }
 
